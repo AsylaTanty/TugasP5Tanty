@@ -1,0 +1,29 @@
+body, h1 {
+    margin: 90px;
+    padding-top: 0%;
+    font-family: Arial;
+    background-color: white;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2 rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid #dbd6d6;
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #dbd6d6;
+    padding: 8px;
+    text-align:left;
+}

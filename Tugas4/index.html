@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanty N Asyla</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/TugasP4/TugasP4.css"/>
+    <style>
+        .content { display: none; }
+        .active { display: block; }
+        .custom-container {
+            background-color: rgb(248, 199, 218);}
+    </style>
+
+</head>
+<body>
+
+    <div class="container mt-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="https://i.pinimg.com/736x/0f/f9/25/0ff925ed2065630e0957f666e8acd0c9.jpg" 
+                alt="Logo" style="height: 50px;"> Pinky</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showContent('home')">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showContent('about')">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showContent('contact')">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div style="height: 50px;"></div>
+
+        <div id="home" class="content active">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/16/ea/36/16ea3612186600dc9904c729ab8beaa7.jpg" class="card-img-top" alt="Cermin">
+                        <div class="card-body">
+                            <h5 class="card-title">Pretty Mirror.</h5>
+                            <p class="card-text">Malaika Kamilea | Posted on 14 Apr 2025. Lorem ipsum dolor sit amet...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/76/70/84/7670842e80d8e5c3d6c617fe6b45a127.jpg" class="card-img-top" alt="BukuBunga">
+                        <div class="card-body">
+                            <h5 class="card-title">Beautiful Book.</h5>
+                            <p class="card-text">Tantri F Parera | Posted on 25 Feb 2025. Lorem ipsum dolor sit amet...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/ac/ca/40/acca409fe9947ba3427db0813eda0a88.jpg" class="card-img-top" alt="Pink Dress">
+                        <div class="card-body">
+                            <h5 class="card-title">Pink Dress.</h5>
+                            <p class="card-text">Tanty N Asyla | Posted on 15 Mei 2025. Lorem ipsum dolor sit amet...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="height: 50px;"></div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/fe/7d/8d/fe7d8de99e7ecb4b3b72345dba724418.jpg" class="card-img-top" alt="Butterfly">
+                        <div class="card-body">
+                            <h5 class="card-title">Pretty Butterfly.</h5>
+                            <p class="card-text">Rizqy K Aziz | Posted on 21 Feb  2025. Lorem ipsum dolor sit amet...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/6d/10/16/6d1016ff2ebb31ad1c18295862354fdd.jpg" class="card-img-top" alt="Beach">
+                        <div class="card-body">
+                            <h5 class="card-title">Beautiful Beach and Sky.</h5>
+                            <p class="card-text">Agis Nabila | Posted on 12 July 2025. Lorem ipsum dolor sit amet...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/2e/fd/83/2efd83c543a9dd0164e96ee2c80b1798.jpg" class="card-img-top" alt="Flowers">
+                        <div class="card-body">
+                            <h5 class="card-title">Pretty Flower Bouqet</h5>
+                            <p class="card-text">Qia Azizah | Posted on 25 Oct 2025. Lorem ipsum dolor sit amet...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="contact" class="content">
+            <h2>Contact Me</h2>
+            <p>If you need help, please contact us via the form below</p>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group row">
+                    <div class="col">
+                        <label for="first-name">First Name</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="Enter Name">
+                </div>
+                <div class="col">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Enter Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="terms">
+                    <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        function showContent(contentId) {
+            var contents = document.querySelectorAll('.content');
+            contents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+            document.getElementById(contentId).classList.add('active');
+        }
+    </script>
+    
+
+</body>
+</html>
